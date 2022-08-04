@@ -6,7 +6,14 @@ This application uses node and jest to allow users to input their employee's inf
 ## How to use
 Simply answer the questions given. Once the application has all the needed answers it will generate an HTML page showing employee's infomation!
 
+## Video Walkthrough
+This is a video walkthrough of the application!
+
+
 ## Images of application
+This image shows a demo HTML file created by this application!
+![Screenshot (6)](https://user-images.githubusercontent.com/104457102/182963329-367d030d-97ba-4711-9a41-5055f5b2289b.png)
+
 
 ## Questions
 If you have any questions, you can reach me on my github, or email.
