@@ -214,7 +214,7 @@ const HTMLTemp = () => {
         </div>
         <div class="media-content">
           <p class="title is-4">${teamArray[0].name} | ID: ${teamArray[0].id} | Manager</p>
-          <p class="subtitle is-6">Email: ${teamArray[0].email}</p>
+          <p class="subtitle is-6">Email: <a href="mailto: ${teamArray[0].email}">${teamArray[0].email}</a></p>
         </div>
       </div>
       <p class="subtitle is-5">
@@ -233,7 +233,7 @@ const HTMLTemp = () => {
                 </div>
                 <div class="media-content">
                   <p class="title is-4">${teamArray[1].name} | ID: ${teamArray[1].id} | Engineer</p>
-                  <p class="subtitle is-6">Email: ${teamArray[1].email}</p>
+                  <p class="subtitle is-6">Email: <a href="mailto: ${teamArray[0].email}">${teamArray[0].email}</a></p>
                 </div>
             </div>
               <p class="subtitle is-5">
@@ -252,7 +252,7 @@ const HTMLTemp = () => {
             </div>
             <div class="media-content">
               <p class="title is-4">${teamArray[2].name} | ID: ${teamArray[2].id} | Intern</p>
-              <p class="subtitle is-6">Email: ${teamArray[2].email}</p>
+              <p class="subtitle is-6">Email: <a href="mailto: ${teamArray[0].email}">${teamArray[0].email}</a></p>
             </div>
           </div>
           <p class="subtitle is-5">
